@@ -46,7 +46,7 @@ const musicSelection = {
     "ABBA - Thank You For The Music": new Audio(
         "https://ia804506.us.archive.org/29/items/abba-thank-you-for-the-music/Abba%20-%20Thank%20You%20For%20The%20Music.mp4"
     )
-};
+}; // Example music, replaceable
 
 for (musicItem in musicSelection) {
     musicSelection[musicItem].looped = true;
